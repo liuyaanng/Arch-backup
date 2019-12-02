@@ -1,0 +1,6 @@
+{
+    "GenericAttribute": {
+        "AutoMountAndOpen": true,
+        "HiddenSystemPartition": true
+    }
+}

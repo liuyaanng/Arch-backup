@@ -1,0 +1,47 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "src/js/common.js", "background.js" ]
+   },
+   "commands": {
+      "toggle_readerview": {
+         "description": "__MSG_toggleCommandTitle__",
+         "suggested_key": {
+            "default": "Alt+R"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "lib/jquery-2.1.4.min.js", "src/js/config.js", "src/js/common.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "lib/reader.js", "src/js/page.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "https://*.newfido.com/*" ]
+   },
+   "icons": {
+      "128": "src/img/icon128.png",
+      "16": "src/img/icon16.png",
+      "48": "src/img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmZLziBCyBWBfN/ndkUiTVXEXNnCoQH55b5rNcVJk7m9qqzD6TNeQ30ipdhuLbzGdR2t96iayGjSQKbNXE/NE99RzwSYVKj/WbIJIg6gwt2aPsEIbk79+v07JFWSQYQsPBsAdB8H2a2KADpG9kX/9AHmc2DrCJUXYNNfaD6k93xVh10nDEofEGEuTMBNbzkZSI2fUKTUWuUhMlTtImnxetBvHrIbtIXCzU9bEc3qY+5qsE7R84zMmPx0kXpBFNSJ81cGEc+5aXZBYYSxUuho4rzTgHUNGMG3gOZ8RL0kUZrMvb5y0KWM+j/kG1RptwyI2ECr2+ibpFBTGqSl8a6zaVwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "32.0.0",
+   "name": "__MSG_name__",
+   "offline_enabled": true,
+   "page_action": {
+      "default_title": "__MSG_iconTips__"
+   },
+   "permissions": [ "storage", "tabs", "fontSettings" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.2",
+   "web_accessible_resources": [ "src/html/view.html" ]
+}

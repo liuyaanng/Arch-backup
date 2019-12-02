@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "提供与Safari阅读模式功能一致的插件，浏览文章页时候可进入友好的阅读模式，并自定义阅读功能。"
+   },
+   "iconHideTips": {
+      "message": "退出阅读模式"
+   },
+   "iconTips": {
+      "message": "使用阅读模式浏览该页"
+   },
+   "name": {
+      "message": "阅读模式"
+   },
+   "nextPageLoadingTips": {
+      "message": "正在加载下一页 ..."
+   },
+   "pageNum": {
+      "message": "第 $1 页"
+   },
+   "toggleCommandTitle": {
+      "message": "进入/关闭『阅读模式』"
+   }
+}

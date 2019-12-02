@@ -1,0 +1,23 @@
+{
+   "description": {
+      "message": "Transplanted from Safari's Reader View module. Just click a icon in the address bar and you'll get a readability page."
+   },
+   "iconHideTips": {
+      "message": "Hide Reader View"
+   },
+   "iconTips": {
+      "message": "Show Reader View"
+   },
+   "name": {
+      "message": "Reader View"
+   },
+   "nextPageLoadingTips": {
+      "message": "Loading Next Page ..."
+   },
+   "pageNum": {
+      "message": "Page $1"
+   },
+   "toggleCommandTitle": {
+      "message": "Toggle ReaderView Style"
+   }
+}

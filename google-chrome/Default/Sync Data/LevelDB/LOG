@@ -1,0 +1,6 @@
+2019/12/01-18:22:01.620 299 Reusing MANIFEST /home/kevin/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/12/01-18:22:01.658 299 Recovering log #30
+2019/12/01-18:22:01.817 299 Reusing old log /home/kevin/.config/google-chrome/Default/Sync Data/LevelDB/000030.log 
+2019/12/01-18:23:29.100 575 Level-0 table #34: started
+2019/12/01-18:23:29.143 575 Level-0 table #34: 108256 bytes OK
+2019/12/01-18:23:29.180 575 Delete type=0 #30

@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "js/main.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/logo_19x19.png",
+      "default_title": "__MSG_actionTitle__"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://note.youdao.com/ https://hm.baidu.com/; unsafe-inline; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "http://note.youdao.com",
+   "icons": {
+      "128": "assets/logo_128x128.png",
+      "16": "assets/logo_16x16.png",
+      "48": "assets/logo_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuhClSu02G1eS0Nx44gIVbz11eFyCeJwkqGcWbGNSgVCPMFqxWgiwJbLKDDLmNYaPJpOeei3WXknpkFXa0+BWtpc+z67AFdeT5PjosNlAAi5tfL4y0Bw0iTSZTvwSlptuxhOXSkf67iuvJg+AFxO+sUDaYleo5L26vQog7S8Yl/QIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "http://note.youdao.com/*", "http://note.corp.youdao.com/*", "contextMenus", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.2",
+   "web_accessible_resources": [ "js/clipper-min.js" ]
+}

@@ -1,0 +1,26 @@
+{
+   "actionTitle": {
+      "description": "按钮标题",
+      "message": "收藏到有道云笔记"
+   },
+   "clipperImageMenu": {
+      "description": "菜单(选中)",
+      "message": "保存选中图片"
+   },
+   "extDescription": {
+      "description": "扩展描述",
+      "message": "一键保存精彩网页，多终端同步，永久珍藏"
+   },
+   "extName": {
+      "description": "扩展名称",
+      "message": "有道云笔记网页剪报"
+   },
+   "pageMenu": {
+      "description": "菜单",
+      "message": "保存网页"
+   },
+   "selectionMenu": {
+      "description": "菜单(选中)",
+      "message": "保存选中内容"
+   }
+}

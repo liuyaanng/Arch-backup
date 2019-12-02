@@ -1,0 +1,30 @@
+{
+   "browser_action": {
+      "default_popup": "popupPage/popup.html",
+      "default_title": "Reading Time"
+   },
+   "content_scripts": [ {
+      "exclude_matches": [ "*://*.youtube.com/*" ],
+      "js": [ "extensionSettings.js", "readEstimator/Readability.js", "readEstimator/estimateTime.js", "readEstimator/mainContentScript.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "This extension shows the estimated reading time for a web page",
+   "icons": {
+      "128": "assets/timereadicon128.png",
+      "16": "assets/timereadicon16.png",
+      "32": "assets/timereadicon32.png",
+      "48": "assets/timereadicon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwIMb+ImJuhM7lH++14vHjGIaXo+UHevO6eXqjvQ3voVuIf7aYPclariQZkqwzme1oMoAjihOcZOdGfJP0b6zGzF6zQSJkxqMAsuAANZ97lk5PlLzjQcHIaL5K6wtHo/WXVcZq9YcV5Uq8IXpIxkNchsLeMVNT2K4YInT2ZdgIEvHwJGx2szeAy2qutj689/8Hk5MdtaHy0GDx+NOseUcHNWwca+81Qsgfh7WCuXlCYaLu+lXgocX9USfXHS4szztKgpIH2KUcszqM9pAaoO/NCEN5H6bTG5ruRZG6Rj7bXfPVSiYbOjYu5ZJROiHom8tB27NCEtZAlxd8JU3xYQWyQIDAQAB",
+   "manifest_version": 2,
+   "name": "Reading Time",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "optionsPage/options.html"
+   },
+   "permissions": [ "activeTab", "storage" ],
+   "short_name": "Reading Time",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1",
+   "web_accessible_resources": [ "assets/*.*" ]
+}
